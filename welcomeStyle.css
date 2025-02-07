@@ -1,0 +1,342 @@
+/* Global Styles */
+html {
+  margin: 0; 
+  padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 30px;
+  background-color: #f0f8ff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+  background-color: #4169E1;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  height: auto;
+}
+
+/* Styling for the header logo */
+#header-logo {
+  max-height: 100px;
+}
+
+/* Styling for the title container */
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for header h1 */
+.header h1 {
+  margin: 0;
+  color: ivory;
+  font-size: calc(2.5vw + 1rem);
+  line-height: 1.2;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Styling for header h2 */
+.header h2 {
+  margin: 0;
+  color: ivory;
+  font-size: calc(1.5vw + 0.5rem);
+  line-height: 1.2;  
+}
+
+@media (max-width: 600px) {
+  /* Responsive font size for header h1 and h2 */
+  .header h1,
+  .header h2 {
+      font-size: calc(1.5vw + 1rem);
+      white-space: normal;
+  }
+}
+
+/* Navbar Base Styles */
+.navbar {   
+  position: relative;
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+/* Styling for navbar items */
+.navbar-item {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #4B3F6B; /* Original text color */
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  border-radius: 15px; /* Rounded corners for aesthetic */
+  display: inline-block; /* To apply padding and border-radius */
+}
+
+/* Styling for navbar items on hover and focus */
+.navbar-item:hover, .navbar-item:focus {
+  background-color: #3a3154; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+  border-radius: 15px; /* Maintain the rounded corners on hover */
+}
+
+/* Styling for navigation links container */
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+/* Styling for navigation links list items */
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+/* Styling for navigation links */
+.nav-links ul li a {
+  color: rgb(32, 28, 28); 
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px; /* Adjust the right margin to reduce horizontal space */
+  margin-top: -15px; /* Reduced vertical space between rows */
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+.hamburger .fa-bars {
+    display: block; /* Ensure hamburger icon is visible by default */
+}
+
+.hamburger .fa-times {
+    display: none; /* Hide cross icon by default */
+}
+
+.hamburger.active .fa-bars {
+    display: none; /* Hide hamburger icon when menu is active */
+}
+
+.hamburger.active .fa-times {
+    display: block; /* Show cross icon when menu is active */
+}
+
+/* Responsive Navbar */
+@media (max-width: 600px) {
+  .hamburger {
+      display: block;
+  }
+
+/* Styling for the navigation links container in mobile view */
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      position: inherit;
+      z-index: 1;
+  }
+
+  /* Show nav-links when 'active' class is added by JavaScript */
+  .nav-links.active {
+      display: flex;
+  }
+
+  /* Styling for mobile navigation links */
+  .nav-links ul {
+      width: 100%;
+      margin: 0; /* Ensure no default margin is applied */
+      padding: 0; /* Ensure no default padding is applied */
+  }
+
+  /* Styling for mobile navigation links list items */
+  .nav-links ul li {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0; 
+  }
+
+  /* Styling for mobile navigation links */
+  .nav-links ul li a {
+      display: block;
+      width: 100%;
+      padding: 10px 0; 
+  }
+}
+
+/* Welcome Section Styles */
+.welcome-section {
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+/* Welcome-message Style */
+.welcome-message {
+    color: #4B3F6B;
+    margin-bottom: 15px;
+}
+     
+ .welcome-section button {
+            background-color: #342e65;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin-top: 20px;
+            font-size: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .welcome-section button:hover, 
+        .welcome-section button:focus {
+            background-color: #291c50;
+        }       
+        
+/* Footer Style */
+.footer {
+  position: relative;
+  border-radius: 15px;
+  min-height: 100px;
+  padding: 20px;
+  color: black; /* Footer's text color */
+  text-align: center; /* Aligns the text to the center */
+}
+
+/* Styling for footer links container */
+.footer-links {
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: black;
+  font-weight: 500;
+}
+
+/* Styling for footer links list items */
+.footer-links li {
+  padding: 0 10px;
+}
+
+/* Styling for footer links */
+.footer-links a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+/* Styling for social media icons */
+.social {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  color: black;
+}
+
+.social a {
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  margin: 0 20px;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* Adjust size for smaller screens */
+@media (max-width: 600px) {
+    .social a {
+        font-size: 20px; /* Adjusted font-size for smaller icons */
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+.social a:hover {
+  opacity: 0.5;
+}
+
+/* Wave Style */
+.wave {
+  position: absolute;
+  bottom: -80px;
+  height: 100px;
+  background: url('https://i.ibb.co/wQZVxxk/wave.png') repeat-x;
+  background-size: 1000px 100px ;
+  margin-left: -20px;
+  width: 100%;
+}
+
+#wave1 {
+  z-index: 1;
+  opacity: 0.9;
+  animation: animateWaves 6s linear infinite;
+}
+
+#wave2 {
+  z-index: 2;
+  opacity: 0.6;
+  animation: animate 6s linear infinite;
+}
+
+#wave3 {
+  z-index: 3;
+  opacity: 0.4;
+  animation: animateWaves 4s linear infinite;
+}
+
+#wave4 {
+  z-index: 4;
+  opacity: 0.7;
+  animation: animate 4s linear infinite;
+}
+
+/* Keyframes for wave animation */
+@keyframes animateWaves {
+  0% { background-position: 0 bottom; }
+  100% { background-position: 1000px bottom; }
+}
+
+@keyframes animate {
+  0% { background-position: 0 bottom; }
+  100% { background-position: -1000px bottom; }
+}
+

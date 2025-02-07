@@ -1,0 +1,300 @@
+/* Reset default margin and padding for HTML and body */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 30px;
+    background-color: #f0f8ff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+    background-color: #4169E1;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+}
+
+#header-logo {
+    max-height: 100px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: ivory;
+    font-size: calc(2.5vw + 1rem);
+    line-height: 1.2;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header h2 {
+    margin: 0;
+    color: ivory;
+    font-size: calc(1.5vw + 0.5rem); /* Adjusted font size for h2 */
+    line-height: 1.2;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+    .header h1,
+    .header h2 {
+        font-size: calc(1.5vw + 1rem);
+        white-space: normal;
+    }
+}
+
+/* Navbar Base Styles */
+.navbar {
+    position: relative;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.navbar-item {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #4B3F6B; /* Original text color */
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    border-radius: 15px; /* Rounded corners for aesthetic */
+    display: inline-block; /* To apply padding and border-radius */
+}
+
+.navbar-item:hover, .navbar-item:focus {
+    background-color: #3a3154; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+    border-radius: 15px; /* Maintain the rounded corners on hover */
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: rgb(32, 28, 28); /* Adjust text color as needed */
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px; /* Adjust the right margin to reduce horizontal space */
+    margin-top: -15px; /* Reduced vertical space between rows */
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+
+.hamburger .fa-bars {
+    display: block; /* Ensure hamburger icon is visible by default */
+}
+
+.hamburger .fa-times {
+    display: none; /* Hide cross icon by default */
+}
+
+.hamburger.active .fa-bars {
+    display: none; /* Hide hamburger icon when menu is active */
+}
+
+.hamburger.active .fa-times {
+    display: block; /* Show cross icon when menu is active */
+}
+
+/* If you're not using Font Awesome, you might need additional CSS for the transformation */
+
+/* Responsive Navbar */
+@media (max-width: 600px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: inherit;
+        z-index: 1;
+    }
+
+    /* Show nav-links when 'active' class is added by JavaScript */
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links ul {
+        width: 100%;
+        margin: 0; /* Ensure no default margin is applied */
+        padding: 0; /* Ensure no default padding is applied */
+    }
+
+    .nav-links ul li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0; 
+    }    
+
+    .nav-links ul li a {
+        display: block;
+        width: 100%;
+        padding: 10px 0; 
+    }
+}
+
+/* About Section Styles */
+.about-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-section h1, .about-section h2 {
+    color: #4B3F6B;
+}
+
+.about-section ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.about-section li {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 600px) {
+ .about-section {
+        flex-direction: column;
+    }
+}
+
+/* FAQ Section Styles */
+.faq-section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.faq-item h4 {
+    cursor: pointer;
+    color: #4B3F6B;
+    margin-bottom: 5px;
+}
+
+.faq-item h4:hover {
+    color: #3a3154;
+}
+
+.faq-item p {
+    color: #333;
+    margin-top: 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Footer Styles */
+.footer {
+    position: relative;
+    border-radius: 15px;
+    min-height: 100px;
+    padding: 20px;
+    color: black; /* Footer's text color */
+    text-align: center; /* Aligns the text to the center */
+}
+
+.footer-links {
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    font-weight: 500;
+}
+
+.footer-links li {
+    padding: 0 10px;
+}
+
+.footer-links a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    color: black;
+}
+
+.social a {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    margin: 0 20px;
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+/* Adjust size for smaller screens */
+@media (max-width: 600px) {
+    .social a {
+        font-size: 20px; /* Adjusted font-size for smaller icons */
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+.social a:hover {
+    opacity: 0.5;
+}
+

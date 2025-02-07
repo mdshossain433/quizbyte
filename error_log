@@ -1,0 +1,1304 @@
+[25-Jan-2024 17:00:51 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/register.php on line 19
+[25-Jan-2024 17:00:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mz8d23t/public_html/COM6011/php/register.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 19
+[25-Jan-2024 17:20:52 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/register.php on line 19
+[25-Jan-2024 17:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mz8d23t/public_html/COM6011/php/register.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 19
+[25-Jan-2024 17:21:20 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/register.php on line 19
+[25-Jan-2024 17:21:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mz8d23t/public_html/COM6011/php/register.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 19
+[25-Jan-2024 17:27:39 UTC] PHP Warning:  require_once(/home/config.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/COM6011/php/register.php on line 3
+[25-Jan-2024 17:27:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/COM6011/php/register.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 3
+[25-Jan-2024 17:46:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:21
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(21): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 21
+[25-Jan-2024 17:56:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:21
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(21): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 21
+[25-Jan-2024 18:00:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:21
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(21): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 21
+[25-Jan-2024 18:00:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:21
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(21): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 21
+[25-Jan-2024 18:00:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:21
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(21): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 21
+[25-Jan-2024 18:01:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:21
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(21): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 21
+[25-Jan-2024 18:01:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:21
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(21): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 21
+[25-Jan-2024 18:22:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function connectToDatabase() in /home/mz8d23t/public_html/COM6011/php/register.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 4
+[25-Jan-2024 18:26:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function connectToDatabase() in /home/mz8d23t/public_html/COM6011/php/register.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 4
+[25-Jan-2024 19:14:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:21
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(21): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 21
+[25-Jan-2024 19:24:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function connectToDatabase() in /home/mz8d23t/public_html/COM6011/php/register.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 4
+[25-Jan-2024 19:43:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:31
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(31): mysqli_prepare(Object(mysqli), 'SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 31
+[25-Jan-2024 19:45:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function connectToDatabase() in /home/mz8d23t/public_html/COM6011/php/register.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 4
+[25-Jan-2024 19:46:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function connectToDatabase() in /home/mz8d23t/public_html/COM6011/php/register.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 4
+[25-Jan-2024 19:49:54 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/register.php on line 24
+[25-Jan-2024 19:49:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mz8d23t/public_html/COM6011/php/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 24
+[25-Jan-2024 19:52:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function connectToDatabase() in /home/mz8d23t/public_html/COM6011/php/register.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 9
+[25-Jan-2024 19:54:22 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/register.php on line 26
+[25-Jan-2024 19:54:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mz8d23t/public_html/COM6011/php/register.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 26
+[25-Jan-2024 20:29:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:26
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(26): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 26
+[25-Jan-2024 21:48:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/login.php:37
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(37): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 37
+[26-Jan-2024 18:16:16 UTC] PHP Warning:  Undefined variable $name in /home/mz8d23t/public_html/COM6011/php/login.php on line 59
+[26-Jan-2024 18:16:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mz8d23t/public_html/COM6011/php/login.php:59) in /home/mz8d23t/public_html/COM6011/php/login.php on line 62
+[26-Jan-2024 18:18:01 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:03 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:04 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:05 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:05 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:05 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:05 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:21 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:22 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:22 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:22 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:22 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:18:23 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:37:56 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:37:58 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:27 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:30 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:30 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:31 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:31 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:31 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:31 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:41 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:43 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:43 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:38:44 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:39:50 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:39:52 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:39:53 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:39:53 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:39:53 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:50:15 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:50:16 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[26-Jan-2024 18:50:16 UTC] PHP Parse error:  syntax error, unexpected token "/" in /home/mz8d23t/public_html/COM6011/php/login.php on line 51
+[30-Jan-2024 21:40:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'users.Username' in 'field list' in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:12
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(12): mysqli_query(Object(mysqli), 'SELECT users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 12
+[30-Jan-2024 21:41:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'users.Username' in 'field list' in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:12
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(12): mysqli_query(Object(mysqli), 'SELECT users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 12
+[30-Jan-2024 21:41:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'users.Username' in 'field list' in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:12
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(12): mysqli_query(Object(mysqli), 'SELECT users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 12
+[02-Feb-2024 20:53:38 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 20:53:38 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 21:01:35 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 21:01:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 21:59:56 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 21:59:56 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:01 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:01 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:06 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:06 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:09 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:09 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:10 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:10 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:10 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:10 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:10 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:10 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:11 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:11 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:19 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:51 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:51 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:53 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:53 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:53 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:53 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:53 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:00:53 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:40
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(40): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 40
+[02-Feb-2024 22:02:15 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:15 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:29
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(29): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:23 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:23 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:29
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(29): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:25 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:25 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:29
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(29): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:26 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:29
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(29): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:26 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:29
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(29): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:26 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:29
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(29): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:26 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:29
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(29): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:02:46 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:02:46 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:02:48 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:02:48 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:03:18 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:03:18 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:03:49 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:03:49 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:19 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:41 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:41 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:49 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:49 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:53 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:53 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:54 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:54 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:55 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:55 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:56 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:04:56 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:05:18 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:05:18 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/get_top_scores.php(14): mysqli_query(NULL, 'SELECT Users.Us...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/get_top_scores.php on line 14
+[02-Feb-2024 22:05:29 UTC] PHP Warning:  Undefined variable $conn in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[02-Feb-2024 22:05:29 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/mz8d23t/public_html/COM6011/php/login.php:29
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/login.php(29): mysqli_prepare(NULL, 'SELECT UserID, ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/login.php on line 29
+[04-Feb-2024 23:11:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:11:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:12:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:13:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:13:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:13:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:14:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:14:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:15:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:22:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:26:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:26:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:26:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:27:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:27:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[04-Feb-2024 23:27:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:13
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(13): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 13
+[05-Feb-2024 12:59:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:63
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(63): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 63
+[05-Feb-2024 13:10:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:63
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(63): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 63
+[05-Feb-2024 13:11:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:83
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(83): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 83
+[05-Feb-2024 13:23:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:23:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:23:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:23:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:23:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:23:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:23:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:23:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:23:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:23:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:23:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:24:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:24:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:24:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:24:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:24:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:31:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:31:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:31:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:35:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:39:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:42:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:34
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(34): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 34
+[05-Feb-2024 13:49:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:36
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(36): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 36
+[05-Feb-2024 13:52:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:36
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(36): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 36
+[05-Feb-2024 13:55:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/mz8d23t/public_html/COM6011/php/register.php:36
+Stack trace:
+#0 /home/mz8d23t/public_html/COM6011/php/register.php(36): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/COM6011/php/register.php on line 36
+[06-Feb-2024 15:57:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 15:57:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 15:57:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 15:58:44 UTC] PHP Warning:  require_once(php/config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 8
+[06-Feb-2024 15:58:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'php/config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 8
+[06-Feb-2024 15:58:45 UTC] PHP Warning:  require_once(php/config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 8
+[06-Feb-2024 15:58:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'php/config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 8
+[06-Feb-2024 15:58:45 UTC] PHP Warning:  require_once(php/config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 8
+[06-Feb-2024 15:58:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'php/config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 8
+[06-Feb-2024 15:58:45 UTC] PHP Warning:  require_once(php/config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 8
+[06-Feb-2024 15:58:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'php/config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 8
+[06-Feb-2024 15:58:46 UTC] PHP Warning:  require_once(php/config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 8
+[06-Feb-2024 15:58:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'php/config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 8
+[06-Feb-2024 15:59:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 15:59:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 15:59:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 15:59:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 15:59:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 16:02:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 16:02:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 16:02:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 16:02:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 16:02:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 16:03:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 16:11:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 16:11:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 16:11:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:11
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(11): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 11
+[06-Feb-2024 16:15:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:15:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:15:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:15:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:15:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:15:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:16:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:16:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:21:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:24:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:24:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:25:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:25:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:25:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:27:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:28:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:28:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:29:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:29:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:30:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:32:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:34:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:34:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:34:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:34:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:36:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:36:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:36:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:36:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:36:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:37:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:37:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:37:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:38:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:38:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:38:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:38:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:38:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:38:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:39:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:40:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:40:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:40:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:41:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:41:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 16:43:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:02:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:03:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:03:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:03:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:03:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:04:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:09:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:09:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:10:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:12:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:12:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:12:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:12:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:14
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(14): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 14
+[06-Feb-2024 17:52:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 17:52:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 17:52:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 17:52:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 17:52:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 17:52:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 17:54:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:15
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(15): mysqli->prepare('SELECT score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 15
+[06-Feb-2024 17:54:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:15
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(15): mysqli->prepare('SELECT score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 15
+[06-Feb-2024 17:54:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:15
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(15): mysqli->prepare('SELECT score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 15
+[06-Feb-2024 17:54:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:15
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(15): mysqli->prepare('SELECT score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 15
+[06-Feb-2024 17:54:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:15
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(15): mysqli->prepare('SELECT score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 15
+[06-Feb-2024 17:55:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 17:55:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 17:55:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 17:57:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:00:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:03:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:04:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:04:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:04:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mz8d23t_QuizByteDB.scores' doesn't exist in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score FR...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:24:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:24:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:24:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:24:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:24:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:24:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:24:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:24:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:24:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:25:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:26:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:27:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:27:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:27:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:27:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:27:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:27:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:27:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 18:27:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM Scores WHERE UserID = ? ORDER BY Date DESC LIMIT 5' at line 1 in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php:17
+Stack trace:
+#0 /home/mz8d23t/public_html/New/COM6011/php/get_scores.php(17): mysqli->prepare('SELECT Score, F...')
+#1 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/get_scores.php on line 17
+[06-Feb-2024 19:24:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home/mz8d23t/public_html/New/COM6011/php/register.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 21
+[06-Feb-2024 19:24:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home/mz8d23t/public_html/New/COM6011/php/register.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 63
+[06-Feb-2024 19:24:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home/mz8d23t/public_html/New/COM6011/php/register.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 34
+[06-Feb-2024 19:26:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home/mz8d23t/public_html/New/COM6011/php/register.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 21
+[06-Feb-2024 19:26:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home/mz8d23t/public_html/New/COM6011/php/register.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 21
+[06-Feb-2024 19:28:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home/mz8d23t/public_html/New/COM6011/php/register.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 21
+[07-Feb-2024 17:26:16 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:26:16 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:26:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:26:27 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:26:27 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:26:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:26:27 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:26:27 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:26:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:42:24 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:42:24 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:42:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:42:35 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:42:35 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:42:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:42:35 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:42:35 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:42:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:43:50 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:43:50 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:43:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:44:04 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:44:04 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:44:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:44:04 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:44:04 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:44:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:46:30 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:46:30 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:46:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:46:42 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:46:42 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:46:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:46:42 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:46:42 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:46:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:47:52 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:47:52 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:47:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:48:01 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:48:01 UTC] PHP Warning:  require(config1.php): Failed to open stream: No such file or directory in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8
+[07-Feb-2024 17:48:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config1.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mz8d23t/public_html/New/COM6011/php/register.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mz8d23t/public_html/New/COM6011/php/register.php on line 8

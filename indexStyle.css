@@ -1,0 +1,381 @@
+/* Global Styles */
+html {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 30px;
+    background-color: #f0f8ff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+    background-color: #4169E1;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+}
+
+#header-logo {
+    max-height: 100px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: ivory;
+    font-size: calc(2.5vw + 1rem);
+    line-height: 1.2;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header h2 {
+    margin: 0;
+    color: ivory;
+    font-size: calc(1.5vw + 0.5rem); /* Adjusted font size for h2 */
+    line-height: 1.2;  
+}
+
+@media (max-width: 600px) {
+    /* Responsive Font Sizes for Header */
+    .header h1,
+    .header h2 {
+        font-size: calc(1.5vw + 1rem);
+        white-space: normal;
+    }
+}
+
+/* Navbar Base Styles */
+.navbar {   
+    position: relative;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.navbar-item {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #4B3F6B; /* Original text color */
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    border-radius: 15px; /* Rounded corners for aesthetic */
+    display: inline-block; /* To apply padding and border-radius */
+}
+
+.navbar-item:hover, .navbar-item:focus {
+    background-color: #3a3154; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+    border-radius: 15px; /* Maintain the rounded corners on hover */
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: rgb(32, 28, 28); 
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px; /* Adjust the right margin to reduce horizontal space */
+    margin-top: -15px; /* Reduced vertical space between rows */
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+
+.hamburger .fa-bars {
+    display: block; /* Ensure hamburger icon is visible by default */
+}
+
+.hamburger .fa-times {
+    display: none; /* Hide cross icon by default */
+}
+
+.hamburger.active .fa-bars {
+    display: none; /* Hide hamburger icon when menu is active */
+}
+
+.hamburger.active .fa-times {
+    display: block; /* Show cross icon when menu is active */
+}
+
+
+/* Responsive Navbar */
+@media (max-width: 600px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: inherit;  
+        z-index: 1;
+    }
+
+    /* Show nav-links when 'active' class is added by JavaScript */
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links ul {
+        width: 100%;
+        margin: 0; /* Ensure no default margin is applied */
+        padding: 0; /* Ensure no default padding is applied */
+    }
+
+    .nav-links ul li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0; 
+    }
+
+    .nav-links ul li a {
+        display: block;
+        width: 100%;
+        padding: 10px 0; 
+    }
+}
+
+/* Hero Section */
+.hero-section, .details-section, .features-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero-section {
+    border-radius: 15px;
+    padding: 100px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #8A2BE2;
+    color: white;
+    margin-top: -25px;
+}
+
+@media (max-width: 600px) {
+    /* Responsive Font Size for Hero Section */
+    .hero-section {
+        font-size: calc(1.5vw + 1rem);
+    }
+}
+
+.hero-section button {
+    background-color: #342e65;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section button:hover, 
+.hero-section button:focus {
+    background-color: #291c50;
+}
+
+/* Details Section */
+.details-section {
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 15px;
+    margin: 5px auto;
+    width: 90%;
+    margin-top: 5px;
+}
+
+/* Features Section */
+.features-section {
+    border-radius: 15px;
+    background-color: #8A2BE2;
+    color: white;
+    margin: 5px auto;
+}
+
+/* Feature Card */
+.feature-card {
+    background-color: #ffffff;
+    color: #4c45a8;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card h3 {
+    color: #333333;
+}
+
+@media (max-width: 600px) {
+    .features-section {
+        padding: 20px 10px; /* Reduced horizontal padding */
+    }
+    .feature-card {
+        box-sizing: border-box; /* Make sure padding and border are included in the width */
+        width: auto; /* Allow the width to adjust based on the screen size */
+        max-width: 100%; /* Prevent it from getting larger than the screen */
+        margin: 10px; /* Adjust margin for smaller screens */
+        padding: 20px; /* Keep padding consistent */
+        display: block; /* Stack the cards vertically */
+    }
+}
+
+/* Footer Style */
+.footer {
+    position: relative;
+    border-radius: 15px;
+    min-height: 100px;
+    padding: 20px;
+    color: black; /* Footer's text color */
+    text-align: center; /* Aligns the text to the center */
+}
+
+.footer-links {
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    font-weight: 500;
+}
+
+.footer-links li {
+    padding: 0 10px;
+}
+
+.footer-links a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    color: black;
+}
+
+.social a {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    margin: 0 20px;
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+/* Adjust size for smaller screens */
+@media (max-width: 600px) {
+    .social a {
+        font-size: 20px; /* Adjusted font-size for smaller icons */
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+.social a:hover {
+    opacity: 0.5;
+}
+
+/* Wave Style */
+.wave {
+    position: absolute;
+    bottom: -80px;
+    height: 100px;
+    background: url('https://i.ibb.co/wQZVxxk/wave.png') repeat-x;
+    background-size: 1000px 100px ;
+    margin-left: -20px;
+    width: 100%;
+}
+
+/* Wave Animation */
+#wave1 {
+    z-index: 1;
+    opacity: 0.9;
+    animation: animateWaves 6s linear infinite;
+}
+
+#wave2 {
+    z-index: 2;
+    opacity: 0.6;
+    animation: animate 6s linear infinite;
+}
+
+#wave3 {
+    z-index: 3;
+    opacity: 0.4;
+    animation: animateWaves 4s linear infinite;
+}
+
+#wave4 {
+    z-index: 4;
+    opacity: 0.7;
+    animation: animate 4s linear infinite;
+}
+
+/* Keyframes for Wave Animation */
+@keyframes animateWaves {
+    0% { background-position: 0 bottom; }
+    100% { background-position: 1000px bottom; }
+}
+
+@keyframes animate {
+    0% { background-position: 0 bottom; }
+    100% { background-position: -1000px bottom; }
+}
